@@ -6,13 +6,13 @@ import os
 import sys
 import time
 
-import tensorflow as tf
 import numpy as np
 
 from model import ICNet_BN
 from utils.config import Config
 from utils.visualize import decode_labels
 from utils.image_reader import ImageReader, prepare_label
+import tensorflow.compat.v1 as tf
 
 def get_arguments():
     parser = argparse.ArgumentParser(description="Reproduced ICNet")

@@ -1,8 +1,8 @@
 import os
 import numpy as np
-import tensorflow as tf
 import glob
 import cv2
+import tensorflow.compat.v1 as tf
 
 def read_labeled_image_list(data_dir, data_list):
     f = open(data_list, 'r')

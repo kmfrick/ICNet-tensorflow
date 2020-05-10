@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from network import Network
 from utils.image_reader import _infer_preprocess
 from utils.visualize import decode_labels

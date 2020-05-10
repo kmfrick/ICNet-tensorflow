@@ -1,6 +1,6 @@
 import scipy.io as sio
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 label_colours = [[128, 64, 128], [244, 35, 231], [69, 69, 69]
                 # 0 = road, 1 = sidewalk, 2 = building
